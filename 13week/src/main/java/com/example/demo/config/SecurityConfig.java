@@ -18,5 +18,6 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Excepti
 @Bean // 암호화 설정
 public PasswordEncoder passwordEncoder() {
 return new BCryptPasswordEncoder(); // 비밀번호 암호화 저장
-    }
+    
+}
 }
